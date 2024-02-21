@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+background: rgb(75,41,63);
+  background: linear-gradient(90deg, rgba(75,41,63,1) 0%, rgba(204,60,152,1) 71%, rgba(148,38,75,1) 100%);;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+.calc{
+  color: aliceblue;
+  text-align: left;
+}
+.row{
+  height: 450px;
+  width:500px;
+  background-color: #000000;
+  /* margin-left: 200px; */
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.3); /* Background color for the container */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#calculator {
+  background-color: #7c1d1d;
+  border: 1px solid #845454;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 10 10 10px rgba(0, 0, 0, 0.1);
+  
+  
+}
+
+input {
+  width: calc(250px - 44px); /* Adjusted width to account for padding and button width */
+  margin-bottom: 10px;
+  margin-left: -5px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 10px; /* Round shape for the text box */
+  border: none;
+  background-color: rgba(255, 192, 203, 0.623); /* Orange color for the text box */
+}
+
+button {
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 50%; /* Round shape for all buttons */
+  border: none;
+  
+}
+
+button.operator {
+  background-color: rgba(255, 192, 203, 0.492); /* Pink color for operator buttons */
+  color: #fff;
+}
+
+button.equal {
+  background-color: #616e61;
+  color: #fff;
+}
+button.special {
+  width: calc(100% - 10px);
+  height: 50px;
+  border-radius: 5px;
+}
+
+.del,
+.ac {
+  margin-left: -5px;
+  width: calc(30% - 10px);
+  height: 40px; /* Adjust the height as needed */
+  border-radius: 15px; /* Adjust the border-radius as needed */
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+button:active {
+  background-color: #ccc;
+}
+.row1{
+  height: 400px;
+  width:400px;
+  background-color: #000000;
+
+  margin-left: 100px;
+  
+}
